@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  color-scheme: light;
+  font-family: 'Inter', sans-serif;
+}
+
+body, .streamlit-expanderHeader, .css-1d391kg {
+  font-family: 'Inter', sans-serif !important;
+}
+
+.stApp {
+  background: #f8f7ff;
+}
+
+.block-container {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.stButton>button, .stDownloadButton>button {
+  border-radius: 14px;
+  padding: 0.95rem 1.2rem;
+  box-shadow: 0 10px 30px rgba(3, 17, 77, 0.06);
+}
+
+.stMetric {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 1.1rem 1.3rem;
+  box-shadow: 0 20px 40px rgba(36, 43, 85, 0.08);
+  border: 1px solid rgba(110, 108, 255, 0.12);
+}
+
+.metric-card, .alert-card, .summary-card {
+  background: #ffffff;
+  border-radius: 22px;
+  padding: 1.4rem;
+  box-shadow: 0 16px 40px rgba(33, 40, 84, 0.08);
+  border: 1px solid rgba(113, 103, 214, 0.12);
+  transition: transform 0.24s ease, box-shadow 0.24s ease;
+}
+
+.metric-card:hover, .alert-card:hover, .summary-card:hover {
+  transform: translateY(-2px);
+}
+
+.alert-card {
+  position: relative;
+  border-left: 6px solid #6C5CE7;
+}
+
+.alert-card.warning {
+  border-left-color: #f5a623;
+}
+
+.alert-card.exceeded {
+  border-left-color: #eb5757;
+}
+
+.alert-card.on_track {
+  border-left-color: #22c55e;
+}
+
+.card-title {
+  margin-bottom: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.card-copy {
+  color: #5b5f72;
+  line-height: 1.6;
+}
+
+.progress-label {
+  font-size: 0.92rem;
+  color: #4b4f65;
+  margin-top: 0.75rem;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f3f2fb;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(108, 92, 231, 0.5);
+  border-radius: 999px;
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.75s ease both;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.stMarkdown {
+  color: #1e1e2e;
+}
+
+[data-testid="stMetric"] {
+  padding: 1rem 1rem 1.1rem 1rem !important;
+}
+
+.css-18ni7ap.e8zbici2 {
+  box-shadow: none !important;
+}
+
+.css-1q8dd3e.egzxvld3 {
+  background: rgba(255,255,255,0.85) !important;
+}
+
+.css-1lsmgbg.egzxvld1 {
+  background: rgba(255,255,255,0.8) !important;
+}
+
+.stDownloadButton>button:hover, .stButton>button:hover {
+  box-shadow: 0 12px 28px rgba(43, 54, 132, 0.16);
+}
